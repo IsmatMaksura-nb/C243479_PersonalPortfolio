@@ -1,8 +1,13 @@
-# My-Portfolio
 
-My-Portfolio is a personal portfolio website developed using HTML, CSS and JavaScript.
+My-Portfolio is a personal portfolio website developed using HTML, CSS, and JavaScript.
 
-It showcases my education, skills, projects, experiences and achievements through a clean and responsive design.
+It showcases my education, skills, projects, experiences, and achievements through a clean and responsive design.
+
+## Live Website
+
+Visit my portfolio website:
+
+https://ismatmaksura-nb.github.io/C243479_PersonalPortfolio/
 
 ## Project Overview
 
@@ -14,80 +19,81 @@ Visitors can learn about me and explore my projects and skills. They can also vi
 
 ### Home Page
 
-- Personal introduction
-- Profile image
-- Navigation cards
-- Responsive layout
+* Personal introduction
+* Profile image
+* Navigation cards
+* Responsive layout
 
 ### About Me
 
-- Personal introduction
-- Educational background
-- Interests and career goals
-- Read More and Read Less button
+* Personal introduction
+* Educational background
+* Interests and career goals
+* Read More and Read Less button
 
 ### Projects
 
-The website showcases four projects.
+The website showcases four projects:
 
-- BuildWiseAI
-- School Management System
-- Blood Donation Management System
-- Bus Reservation System
+* BuildWiseAI
+* School Management System
+* Blood Donation Management System
+* Bus Reservation System
 
 The Show More and Show Less button displays or hides project details.
 
 ### Skills
 
-Skills are organized into different categories.
+Skills are organized into different categories:
 
-- Programming Languages
-- Web Development
-- AI and Machine Learning
-- Tools and Technologies
-- Design Skills
-- Soft Skills
+* Programming Languages
+* Web Development
+* AI and Machine Learning
+* Tools and Technologies
+* Design Skills
+* Soft Skills
 
 The Show More and Show Less button displays or hides additional skill cards.
 
 ### Experience and Achievements
 
-This section highlights my activities and learning experiences.
+This section highlights my activities and learning experiences:
 
-- IEEE Computer Society IIUC Student Branch Chapter
-- AI/ML/Gen AI Bootcamp
-- AgentX by NetCom Learning
-- Youth Voice volunteering
-- Graphic Design
+* IEEE Computer Society IIUC Student Branch Chapter
+* AI/ML/Gen AI Bootcamp
+* AgentX by NetCom Learning
+* Youth Voice volunteering
+* Graphic Design
 
 The Show Details and Hide Details button controls additional information.
 
 ### Contact
 
-The Contact page provides links to my email and professional profiles.
+The Contact page provides links to my email and professional profiles:
 
-- Email
-- LinkedIn
-- GitHub
+* Email
+* LinkedIn
+* GitHub
 
 ### Responsive Design
 
-- Purple and lavender color theme
-- Card-based layout
-- Hover effects
-- CSS animations
-- Responsive styling for different screen sizes
+* Purple and lavender color theme
+* Card-based layout
+* Hover effects
+* CSS animations
+* Responsive styling for different screen sizes
 
 ## Technology Stack
 
-| Technology | Purpose |
-|---|---|
-| HTML5 | Structures the website |
-| CSS3 | Handles styling and responsive layouts |
-| JavaScript | Adds interactive features |
-| Visual Studio Code | Used for development |
-| Git | Manages version control |
-| GitHub | Hosts the project repository |
+| Technology         | Purpose                                      |
+| ------------------ | -------------------------------------------- |
+| HTML5              | Structures the website                       |
+| CSS3               | Handles styling and responsive layouts       |
+| JavaScript         | Adds interactive features                    |
+| Visual Studio Code | Used for development                         |
+| Git                | Manages version control                      |
+| GitHub             | Hosts the project repository and source code |
+| GitHub Pages       | Publishes the live website                   |
 
 ## Project Structure
 
@@ -102,6 +108,7 @@ My-Portfolio/
 ├── experience.css
 ├── experience.html
 ├── home.css
+├── image.png
 ├── index.html
 ├── profile.jpg
 ├── projects.css
@@ -116,28 +123,29 @@ My-Portfolio/
 
 **HTML Files**
 
-- `index.html` - Home page
-- `about.html` - Personal information and education
-- `projects.html` - Project details
-- `skills.html` - Technical and soft skills
-- `experience.html` - Experiences and achievements
-- `contact.html` - Contact information
+* `index.html` - Home page
+* `about.html` - Personal information and education
+* `projects.html` - Project details
+* `skills.html` - Technical and soft skills
+* `experience.html` - Experiences and achievements
+* `contact.html` - Contact information
 
 **CSS Files**
 
-- `common.css` - Shared styles
-- `home.css` - Home page design
-- `about.css` - About page design
-- `projects.css` - Projects page design
-- `skills.css` - Skills page design
-- `experience.css` - Experience page design
-- `contact.css` - Contact page design
+* `common.css` - Shared styles
+* `home.css` - Home page design
+* `about.css` - About page design
+* `projects.css` - Projects page design
+* `skills.css` - Skills page design
+* `experience.css` - Experience page design
+* `contact.css` - Contact page design
 
 **Other Files**
 
-- `script.js` - Interactive features
-- `profile.jpg` - Profile image
-- `README.md` - Project documentation
+* `script.js` - Interactive features
+* `profile.jpg` - Profile image
+* `image.png` - Additional project image
+* `README.md` - Project documentation
 
 ## Website Workflow
 
@@ -159,14 +167,14 @@ Each HTML page has its own content and styling. JavaScript controls the interact
 
 ## JavaScript Functionality
 
-The `script.js` file contains four functions.
+The `script.js` file contains functions for interactive features.
 
-| Function | Purpose |
-|---|---|
-| `toggleAbout()` | Shows or hides additional About information |
-| `showDetails()` | Shows or hides project details |
-| `toggleSkills()` | Shows or hides additional skill cards |
-| `toggleExperience()` | Shows or hides experience details |
+| Function             | Purpose                                     |
+| -------------------- | ------------------------------------------- |
+| `toggleAbout()`      | Shows or hides additional About information |
+| `showDetails()`      | Shows or hides project details              |
+| `toggleSkills()`     | Shows or hides additional skill cards       |
+| `toggleExperience()` | Shows or hides experience details           |
 
 These functions use DOM manipulation to control content visibility and update button text.
 
@@ -174,19 +182,19 @@ These functions use DOM manipulation to control content visibility and update bu
 
 ### Requirements
 
-- A web browser
-- Visual Studio Code
-- Git for cloning the repository
+* A web browser
+* Visual Studio Code
+* Git for cloning the repository
 
 ### Clone the Repository
 
+Run the following command in Git Bash or a terminal:
+
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/IsmatMaksura-nb/C243479_PersonalPortfolio.git
 ```
 
-Replace `YOUR_GITHUB_REPOSITORY_URL` with your actual repository URL.
-
-Open the project folder in Visual Studio Code.
+Open the cloned project folder in Visual Studio Code.
 
 ## Running the Website
 
@@ -203,48 +211,44 @@ This is a static website. It does not require a backend server or database.
 1. Open the project in Visual Studio Code.
 2. Install the Live Server extension.
 3. Right-click `index.html`.
-4. Select Open with Live Server.
+4. Select **Open with Live Server**.
 
 ## Testing
 
-The website can be tested by checking the following features.
+The website can be tested by checking the following features:
 
-- Navigation between pages
-- Profile image display
-- Read More and Read Less functionality
-- Project detail buttons
-- Skills visibility buttons
-- Experience detail buttons
-- Email and profile links
-- Responsive layouts
+* Navigation between pages
+* Profile image display
+* Read More and Read Less functionality
+* Project detail buttons
+* Skills visibility buttons
+* Experience detail buttons
+* Email and profile links
+* Responsive layouts
 
 ## Limitations
 
-- No backend or database
-- Portfolio content requires manual updates
-- No backend-powered contact form
-- External links depend on their respective platforms
+* No backend or database
+* Portfolio content requires manual updates
+* No backend-powered contact form
+* External links depend on their respective platforms
 
 ## Future Improvements
 
-- Add more projects and achievements
-- Improve accessibility
-- Enhance responsive layouts
-- Add more interactive features
-- Publish the website using GitHub Pages
+* Add more projects and achievements
+* Improve accessibility
+* Enhance responsive layouts
+* Add more interactive features
 
 ## Developer
 
-**Name:** Ismat Maksura
-
-**Student ID:** C243479
-
-**Department:** Computer Science and Engineering
-
-**Institution:** International Islamic University Chittagong
+* **Name:** Ismat Maksura
+* **Student ID:** C243479
+* **Department:** Computer Science and Engineering
+* **Institution:** International Islamic University Chittagong (IIUC)
 
 ## Summary
 
-My-Portfolio is a personal website built with HTML, CSS and JavaScript.
+My-Portfolio is a personal website built with HTML, CSS, and JavaScript.
 
-It presents my education and skills alongside my projects and achievements. The website demonstrates fundamental front-end development concepts through a responsive design and interactive features.
+It presents my education and skills alongside my projects and achievements. The website demonstrates fundamental front-end development concepts through a responsive design and interactive features. It is published using GitHub Pages.
